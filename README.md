@@ -31,7 +31,9 @@ This is a product/design seed, not a working Zwift integration. The quoted call 
 
 Single-rider, desktop/browser voice companion with a local telemetry bridge. Begin with deterministic recorded/synthetic race replay; validate actual Zwift data access before promising live capabilities. Shared team radio and multi-rider coordination come later.
 
-See [product brief](docs/product.md), [architecture](docs/architecture.md), and [MVP plan](docs/mvp.md).
+Technical direction: marry Sauce's local race-data API with the paseo-dots scoped event/conversation bridge pattern. Use MCP race context and notifications, with a persistent voice session consuming meaningful events directly—not a new coding-agent round trip for every update.
+
+See [product brief](docs/product.md), [architecture](docs/architecture.md), [event-driven design](docs/event-driven-design.md), and [MVP plan](docs/mvp.md).
 
 ## Status
 

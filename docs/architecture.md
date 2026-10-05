@@ -2,6 +2,8 @@
 
 Status: design hypotheses, not verified integration capabilities.
 
+The requested integration direction is Sauce-style local observation plus a paseo-dots-style scoped event bridge, exposed through MCP to a persistent voice host. See [event-driven design](event-driven-design.md) for inspected source evidence, the proposed Sauce adapter, MCP notification semantics, and the hot-lane/deliberation-lane split. It refines this generic architecture; a fresh delegated coding-agent turn is not the default race-radio path.
+
 ```text
 Validated Zwift source / recorded replay
                  ↓
@@ -20,7 +22,7 @@ Validated Zwift source / recorded replay
 
 ## Data access is the first gate
 
-Investigate available Zwift integrations and, where permitted, existing companion/telemetry approaches. Do not assume Sauce exposes a reusable API or that a public Zwift API provides live race data. Record concrete access methods, licensing/terms, supported operating systems, latency, and field availability before selecting an adapter.
+Start by validating a read-only consumer of Sauce's documented local REST/WebSocket API; upstream source confirms the API exists, but the rider's installed version, live payloads, and suitability are unverified. Do not assume a public Zwift API provides live race data. Record concrete access methods, licensing/terms, supported operating systems, latency, and field availability before selecting an adapter.
 
 Build a capability matrix for: self power/cadence/heart rate, rider IDs, event membership, course position/distance, nearby riders versus full field, gaps, group membership, route landmarks, finish distance, power-up inventory, and power-up use. Unavailable fields stay unavailable. Nearby-only visibility cannot establish full-race standings.
 
