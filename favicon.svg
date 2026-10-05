@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" fill="none">
+  <title>Team Car — race radio</title>
+  <rect width="64" height="64" rx="14" fill="#111827"/>
+  <path d="M35 12c7 0 13 6 13 13M35 18c4 0 7 3 7 7" stroke="#FDBA74" stroke-width="3" stroke-linecap="round"/>
+  <path d="m16 34 5-10h12l8 10" stroke="#F97316" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M12 34h32l8 5v9H12V34Z" fill="#F97316"/>
+  <path d="M24 27h7l5 7H21l3-7Z" fill="#111827"/>
+  <circle cx="21" cy="47" r="6" fill="#111827"/>
+  <circle cx="43" cy="47" r="6" fill="#111827"/>
+  <circle cx="21" cy="47" r="3" fill="#F8FAFC"/>
+  <circle cx="43" cy="47" r="3" fill="#F8FAFC"/>
+  <path d="M46 38h4v4h-4z" fill="#F8FAFC"/>
+</svg>

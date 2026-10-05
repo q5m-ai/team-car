@@ -35,6 +35,10 @@ Technical direction: marry Sauce's local race-data API with the paseo-dots scope
 
 See [product brief](docs/product.md), [architecture](docs/architecture.md), [event-driven design](docs/event-driven-design.md), and [MVP plan](docs/mvp.md).
 
+## Project icon
+
+The root `favicon.svg` is a self-contained, square race-car/radio icon discovered by Paseo's project-icon scanner. It needs no running web server or plugin installation.
+
 ## Status
 
 Planning/bootstrap. No app, telemetry provider, audio session, or deployment exists yet. Repository creation does not authorize game-data scraping, credential provisioning, or hosting.
